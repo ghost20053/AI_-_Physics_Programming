@@ -1372,7 +1372,7 @@ MonoBehaviour:
   patrolWaitTime: 2
   sightRange: 12
   fieldOfView: 120
-  normalSpeed: 3.5
+  normalSpeed: 10
   enragedSpeed: 6
   timeToEnrage: 5
 --- !u!95 &997163450
