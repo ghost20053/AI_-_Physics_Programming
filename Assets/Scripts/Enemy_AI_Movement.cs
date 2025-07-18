@@ -9,12 +9,11 @@ public class Enemy : MonoBehaviour
     public Vector3 RandomPoint;
     public Vector3 RandomPointOnPlane;
     public bool isPatrolling;
-    public float speed;
+
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        speed = 10;
     }
     void Update()
     {
